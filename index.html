@@ -9,7 +9,6 @@
   <meta name="description"
         content="Career Resilience by Vinay Saini helps mid-career professionals navigate layoffs, AI disruption, and constant change with clarity, confidence, and practical frameworks." />
   <meta name="author" content="Vinay Saini" />
-  <link rel="canonical" href="https://YOUR-SITE.netlify.app/" />
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -95,7 +94,7 @@
     .section { padding: 100px 20px; background:#020617; }
     .section-title { text-align:center; font-size:2.7rem; margin-bottom:60px; }
 
-    .features-grid {
+    .features-grid, .reviews-grid {
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
       gap:30px;
@@ -103,10 +102,30 @@
       margin:auto;
     }
 
-    .feature-card {
+    .feature-card, .review-card {
       border:1px solid rgba(255,255,255,.08);
       border-radius:20px;
       padding:35px;
+      background:rgba(255,255,255,0.02);
+    }
+
+    .stars {
+      color:#facc15;
+      font-size:1.3rem;
+      margin-bottom:15px;
+      letter-spacing:2px;
+    }
+
+    .review-text {
+      font-size:1.05rem;
+      color:#e5e7eb;
+      margin-bottom:15px;
+    }
+
+    .review-author {
+      font-size:0.9rem;
+      color:#9ca3af;
+      font-weight:600;
     }
 
     footer {
@@ -174,6 +193,41 @@
       <h3>Build Long-Term Relevance</h3>
       <p>Not motivation. Thoughtful strategies that compound over time.</p>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">What Readers Are Saying</h2>
+
+  <div class="reviews-grid">
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        A practical and reassuring guide for professionals navigating uncertainty.
+        The insights are grounded, relevant, and easy to apply.
+      </p>
+      <div class="review-author">— Amazon Reader</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        This book helped me rethink my career strategy at mid-stage.
+        It focuses on clarity, adaptability, and long-term growth.
+      </p>
+      <div class="review-author">— Verified Buyer</div>
+    </div>
+
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-text">
+        A thoughtful read for anyone dealing with change, layoffs, or role transitions.
+        Calm, structured, and motivating without hype.
+      </p>
+      <div class="review-author">— Google Review</div>
+    </div>
+
   </div>
 </section>
 
